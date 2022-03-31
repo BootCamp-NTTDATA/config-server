@@ -1,12 +1,12 @@
 server:
-  port: 8090
+  port: 8092
 spring:
   cloud:
     config:
       server:
         git:
           default-label: main
-          uri: https://github.com/fumex/config-bank
+          uri: https://github.com/BootCamp-NTTDATA/config-bank
           search-paths: /
   application:
-    name: configServer
+    name: config-server
